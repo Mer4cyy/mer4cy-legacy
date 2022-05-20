@@ -1,0 +1,83 @@
+.prainbow {
+  font-family: "Comic Sans MS", "Comic Sans", ubuntu, sans-serif;
+  background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+  -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  flex: 1 1 auto;
+}
+
+/* haha i copied my own css kittehsq.github.io */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", ubuntu, sans-serif;
+  background: #bbbbdd;
+}
+
+/* Style the header */
+header {
+  background-image: url('assets/image/headerbackground.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 30px;
+  text-align: left;
+  text-shadow: 4px 4px 5px #000000;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+/* Create two columns/boxes that floats next to each other */
+aside {
+  float: left;
+  width: 30%;
+  height: 500px;
+  background: #bbbbdd;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+/*nav ul {
+  list-style-type: none;
+  padding: 0;
+}*/
+
+article {
+  float: left;
+  padding: 0px;
+  width: 70%;
+  background-color: #aaaaee;
+  height: 500px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #707070;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+iframe {
+  border: none;
+  padding: 0px;
+}
