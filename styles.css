@@ -20,7 +20,7 @@ body {
 
 /* Style the header */
 header {
-  background-image: url('assets/images/broken bench.jpg');
+  background-image: "assets/images/broken bench.jpg";
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
