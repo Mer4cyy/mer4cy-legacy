@@ -1,62 +1,37 @@
-* {
-  box-sizing: border-box;
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://cdn.discordapp.com/attachments/647194884926865429/1028460858117984316/Background_1.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
+</style>
+</head>
+<body>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <a href="https://www.youtube.com/channel/UC0gvScHKVU-Yr9FiqMzPILw" target="_blank">YouTube</a>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">GILBERTHQ'S LAUNCH PAGE</h1>
+    <hr class="w3-border-white" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">wip.</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Thanks to <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
 
-/* Style the header */
-header {
-  background-color:    #2e81ea;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #e5ea2e;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Style the content */
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #ec412e;
-  padding: 10px;
-}
-
-/* Style the footer */
-footer {
-  background-color: #32ec2e;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  section {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
-}
+</body>
+</html>
